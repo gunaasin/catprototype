@@ -6,7 +6,7 @@ const audio = document.getElementById('audio');
 // Add event listeners to the div
 hovercat.addEventListener('mouseenter', () => {
   // Set the audio source dynamically
-  audio.src = '/audio/cat.wav';
+  audio.src = './audio/cat.wav';
 console
   // Play the audio
   audio.play();
@@ -20,7 +20,7 @@ hovercat.addEventListener('mouseleave', () => {
 // Add event listeners to the div
 hoverdog.addEventListener('mouseenter', () => {
     // Set the audio source dynamically
-    audio.src = '/audio/dog.wav';
+    audio.src = './audio/dog.wav';
   console
     // Play the audio
     audio.play();
